@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>K. Dorheim Blog</title>
+    <link>/</link>
+    <description>Recent content on K. Dorheim Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 26 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Removing Cpp files Xcode</title>
+      <link>/post/removing-cpp-files-xcode/</link>
+      <pubDate>Tue, 26 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/post/removing-cpp-files-xcode/</guid>
+      <description>I was trying to remove an outdated cpp file from Hector and was runninng into issues. Compiling the new build in Xcode resulted in an error but in R the Cpp file complied without error.
+It turns out the problem is on the Xcode side of things see here for more details. To get Hector to build in Xcode without the source file I had to update the Xcode build phases.</description>
+    </item>
+    
+    <item>
+      <title>Using symlink to change R versions</title>
+      <link>/post/2020-12-16_using-symlink-r-versions/</link>
+      <pubDate>Wed, 16 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2020-12-16_using-symlink-r-versions/</guid>
+      <description>Switching between R versions on macOS can be difficult and annoying. One way to deal with multiple versions of R is via the command line.
+Start by taking a look at what is available on your local machine.
+cd /Library/Frameworks/R.framework/Versions ls -l drwxrwxr-x 6 root admin 192 Jan 17 2019 3.2 drwxrwxr-x 6 root admin 192 Jan 18 2019 3.3 drwxrwxr-x 3 root admin 96 Mar 18 2020 3.5 drwxrwxr-x 6 root admin 192 Mar 18 2020 3.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/search/placeholder/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/search/placeholder/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/top/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/top/about/</guid>
+      <description>Kalyn Dorheim is an Earth Scientist, she is in the pursuit of learning the best reproducible science practices and improving her science communication skills.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/top/books/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/top/books/</guid>
+      <description>Machine learning学习笔记 Coursera 在线课程 Machine learning 笔记讲师: 吴恩达(Andrew Ng) 课程地址：https://www.coursera.org/lear</description>
+    </item>
+    
+  </channel>
+</rss>

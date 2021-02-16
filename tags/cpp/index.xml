@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cpp on K. Dorheim Blog</title>
+    <link>/tags/cpp/</link>
+    <description>Recent content in Cpp on K. Dorheim Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 26 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="/tags/cpp/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Removing Cpp files Xcode</title>
+      <link>/post/removing-cpp-files-xcode/</link>
+      <pubDate>Tue, 26 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/post/removing-cpp-files-xcode/</guid>
+      <description>I was trying to remove an outdated cpp file from Hector and was runninng into issues. Compiling the new build in Xcode resulted in an error but in R the Cpp file complied without error.
+It turns out the problem is on the Xcode side of things see here for more details. To get Hector to build in Xcode without the source file I had to update the Xcode build phases.</description>
+    </item>
+    
+  </channel>
+</rss>

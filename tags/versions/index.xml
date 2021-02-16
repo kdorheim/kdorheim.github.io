@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>versions on K. Dorheim Blog</title>
+    <link>/tags/versions/</link>
+    <description>Recent content in versions on K. Dorheim Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 16 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="/tags/versions/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Using symlink to change R versions</title>
+      <link>/post/2020-12-16_using-symlink-r-versions/</link>
+      <pubDate>Wed, 16 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2020-12-16_using-symlink-r-versions/</guid>
+      <description>Switching between R versions on macOS can be difficult and annoying. One way to deal with multiple versions of R is via the command line.
+Start by taking a look at what is available on your local machine.
+cd /Library/Frameworks/R.framework/Versions ls -l drwxrwxr-x 6 root admin 192 Jan 17 2019 3.2 drwxrwxr-x 6 root admin 192 Jan 18 2019 3.3 drwxrwxr-x 3 root admin 96 Mar 18 2020 3.5 drwxrwxr-x 6 root admin 192 Mar 18 2020 3.</description>
+    </item>
+    
+  </channel>
+</rss>
